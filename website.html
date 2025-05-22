@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats & Food Grocery Delivery</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        
+        .ROW1{
+            display: flex;
+            gap: 1100px;
+        }
+        .A{
+            display: flex;
+            gap: 20px;
+        }
+        .K{
+            margin:20px;
+        }
+        .O{
+            margin-top: 15px;
+        }
+        .ROW2{
+            display: flex;
+            gap: 1px;
+        }
+        .L{
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            padding: 5px;
+        }
+        .S{
+            background-color: black;
+            border-radius: 10px;
+            color: white; 
+            margin: 10px; 
+            padding: 5px;
+        }
+        .Location{
+            display: flex;
+            padding-left: 50px;
+        }
+         .Box1{
+            height:40px;
+            width: 10cm;
+            margin-left: 34px;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            position: relative;
+            border: none;
+        }
+        .o{
+            position: relative;
+            height:40px;
+            width: 7cm;
+            margin-left: 10px;
+            padding-left: 35px;
+            display: flex;
+            border: none;
+        }
+        .Z{
+            color: black;
+        }
+        .mahi{
+              background-image: url('https://news.flinders.edu.au/wp-content/uploads/2019/10/fast-food.jpg');
+              width: 100%;
+              height: 750px;
+              }
+        .ImageA{
+            height: 250px;
+            width: 470px;
+            margin-left: 25px;
+            margin-top: 80px;
+            padding: 0;
+        }
+        .ImageZ{
+            height: 250px;
+            width: 470px;
+            margin-left: 5px;
+            margin-top: 80px;
+            padding: 0;
+        }
+        .ImageQ{
+            height: 250px;
+            width: 470px;
+            margin-left: 5px;
+            margin-top: 80px;
+            padding: 0;
+        }
+        .icon{
+            position: absolute;
+            top: 361px;
+            left: 47px;
+            background-color: white;
+            height: 42px;
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px 0 0 10px;
+        }
+        .icon2{
+            position: absolute;
+            background-color: white;
+            height: 42px;
+            width: 45px;
+            display: flex;
+            left: 470px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px 0 0 10px;
+        }
+        .Em{
+            margin-left: 22px;
+            font-family: sans-serif;
+            margin-top: 10px;
+        }
+        .Om{
+            margin-left: 02px;
+            font-family: sans-serif;
+            margin-top: 10px;
+        }
+        .line{
+            display: flex;
+        }
+        .Image{
+            display: flex;
+            gap: 15px;
+        }
+        .R{
+            margin-left: 25px;
+            margin-top: none;
+            top: none;
+            color: black;
+        }
+
+        .rishu{
+            display: flex;
+            justify-content: space-between;
+        }
+        .I{
+            color: black;
+            margin-left: 28px;
+        }
+        .D{
+          color: black;
+          margin-left: 28px;
+        }
+        .city{
+            display: flex;
+            margin-left: 25px;
+        }
+        .cit{
+             font-family: sans-serif;
+             color: black;
+             margin-left: 20px;
+        }
+        .Lo{
+            margin-left: 1100px;
+            font-family: sans-serif;
+            color: black;
+        }
+        .map{
+            justify-content: center;
+            text-align: center;
+            margin-top: 0;
+        }
+        .p1{
+            margin-left: 50px;
+            font-family: sans-serif;
+        }
+        .paragraph{
+            display: flex;
+        }
+        .p2{
+             margin-left: 250px;
+            font-family: sans-serif;
+        }
+        .p3{
+             margin-left: 300px;
+            font-family: sans-serif;
+        }
+        .p4{
+            margin-left: 250px;
+            font-family: sans-serif;
+        }
+        .country{
+            display: flex;
+            margin-left: 25px;
+        }
+        .cot{
+             font-family: sans-serif;
+             color: black;
+             margin-left: 20px;
+        }
+        .Yo{
+            margin-left: 1000px;
+            font-family: sans-serif;
+            color: black;
+        }
+        .p5{
+            margin-left: 50px;
+            font-family: sans-serif;
+        }
+        .paragraph1{
+            display: flex;
+        }
+        .p6{
+             margin-left: 250px;
+            font-family: sans-serif;
+        }
+        .p7{
+             margin-left: 300px;
+            font-family: sans-serif;
+        }
+        .p8{
+            margin-left: 250px;
+            font-family: sans-serif;
+        }
+        .h2{
+            border: 1px solid wheat;
+        }
+        .ea{
+            font-family: sans-serif;
+            margin-left: 120px;
+            margin-top: 90px;
+        }
+        .ImageOne{
+              
+               margin-left: 120px;
+                margin-top: 180px;
+        }
+        .ts{
+            display: flex;
+
+        }
+        .ImageTwo img{
+            height: 40px;
+            width: 130px;
+            margin-left: 20px;
+            margin-top: 180px;
+        }
+        .p9{
+             margin-left: 380px;
+             color: black;
+        }
+        .p10{
+             margin-left: 150px;
+             color: black;
+        }
+        .h3{
+            border: 1px solid wheat;
+            margin-left: 110px;
+            margin-right: 140px;
+        }
+        .F{
+            margin-left: 120px;
+            margin-top: 40px;
+        }
+        .logo{
+            display: flex;
+        }
+        .T{
+            margin-left: 25px;
+            margin-top: 40px;
+        }
+        .Zc{
+             margin-left: 25px;
+            margin-top: 40px;
+        }
+        .li{
+            margin-left: 580px;
+            margin-top: 25px;
+        }
+        .cy{
+            margin-left: 40px;
+            margin-top: 25px;
+        }
+        .po{
+            margin-left: 40px;
+            margin-top: 25px;
+        }
+        .is{
+            margin-left: 30px;
+            margin-top: 25px;
+        }
+        .was{
+            margin-left: 500px;
+        }
+        .his{
+            display: flex;
+        }
+        .has{
+            margin-left: 50px;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="mahi">
+    
+    <div class="ROW1">
+
+        <div class="A">
+           <div class="K"><i class="fa-solid fa-bars"></i></div>
+           <div class="O"><img alt="Uber Eats Home" role="img" src="https://www.ubereats.com/_static/97c43f8974e6c876.svg" width="146" height="24" class="ed ee ef eg"></div>    
+        </div>
+
+        <div class="ROW2">
+            <div><button class="L">Login</button></div>
+            <div><button class="S">Signin</button></div>
+        </div>
+
+    </div>
+
+  
+
+     <h1 style="margin-top: 200px; font-size: 50px; margin-left: 30px; font-style: italic;">Order delivery near you</h1>
+     
+     <div class="Location">
+        <div><input type="text" placeholder="Enter delivery address"  class="Box1"></div>
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><select id="Degree" name="Degree" class="o" required>
+            <option value="BCA">Deliver Now</option>
+            <option value="BBA">Schedule for later</option></select></div>
+            <div class="icon2" style="margin-left: 10px;"><i class="fa-solid fa-business-time"></i></div>
+        
+            
+               <div><button style="background-color: black; color: white; height: 40px; width: 3cm; border-radius:10px; margin-left: 8px;">Search here</button></div><br>
+               </div>
+               <div style="display: flex; margin-left: 40px; color:black;"><p>Or <a class="Z" href="form.html" target="_blank">Signin</a></p></div>
+               
+            </div>  
+
+             <div class="Image">
+
+             <div><img src="https://www.ubereats.com/_static/88d55f7112efe55f.webp" alt="uber" class="ImageA">
+             <h2 style="font-family: sans-serif; margin-left: 25px; margin-top: 5px;">Feed your employees</h2> 
+             <p><a class="R" href="Day 3.html" target="_blank">Create a business account</a></p> 
+             </div>
+             <div><img src="https://www.ubereats.com/_static/711d51ca1b458931.webp" alt="uber" class="ImageZ">
+             <h2 style="font-family: sans-serif; margin-left: 25px; margin-top: 5px;">Your restaurant, delivered</h2> 
+             <p><a class="I" href="Day 3.html" target="_blank">Add your restaurant</a></p>
+             </div>
+             <div><img src="https://www.ubereats.com/_static/16522a701585873b.webp" alt="uber" class="ImageQ">
+             <h2 style="font-family: sans-serif; margin-left: 25px; margin-top: 5px;">Deliver with Uber Eats</h2> 
+             <p><a class="D" href="Day 3.html" target="_blank">Sign up to Deliver</a></p>   
+             </div>
+
+            </div><br><br><br><br><br><br><br>
+
+            <div class="city">
+
+            <h2 class="cit">Cities near me</h2>
+            <p><a class="Lo" href="Day 3.html" target="_blank">View all500+ Cities</a></p>
+
+            </div>
+
+            <p class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470032.56306595745!2d71.95578934163689!3d23.01902061142604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2z4KSF4KS54KSu4KSm4KS-4KSs4KS-4KSmLCDgpJfgpYHgpJzgpLDgpL7gpKQ!5e0!3m2!1shi!2sin!4v1747645312240!5m2!1shi!2sin" width="1400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            
+
+            <div class="paragraph">            
+                
+                
+                <div class="p1">
+                <p>Akron</p>
+                <p>Albuquerque</p>
+                <p>Bridgeport</p>
+                <p>Concerd</p>
+                <p>Dayton</p>
+                <p>EI Paso</p>            
+                </div>
+     
+                <div class="p2">
+                <p>Hartford</p>
+                <p>Houston</p>
+                <p>Indianapolis</p>
+                <p>McAllen</p>
+                <p>Mesa</p>
+                <p>Milwaukee</p>            
+                </div>
+
+                <div class="p3">
+                <p>Nashville</p>
+                <p>New Orleans</p>
+                <p>Omaha</p>
+                <p>Orlando</p>
+                <p>Orlando</p>
+                <p>Palm Bay</p>            
+                </div>
+                    
+                <div class="p4">
+                <p>Providence</p>
+                <p>Queens</p>
+                <p>San Antonio</p>
+                <p>Stony Brook</p>
+                <p>Tucson</p>
+                <p>West Hollywood</p>            
+                </div>
+
+
+            </div><br><br>
+
+            <div class="country">
+
+            <h2 class="cot">Countries with Uber Eats</h2>
+            <p><a class="Yo" href="Day 3.html" target="_blank">View all countries</a></p>
+
+            </div>
+            
+            
+            
+            <div class="paragraph1">            
+                
+                
+                <div class="p5">
+                <p>Akron</p>
+                <p>Albuquerque</p>
+                <p>Bridgeport</p>
+                <p>Concerd</p>
+                <p>Dayton</p>
+                <p>EI Paso</p>            
+                </div>
+     
+                <div class="p6">
+                <p>Hartford</p>
+                <p>Houston</p>
+                <p>Indianapolis</p>
+                <p>McAllen</p>
+                <p>Mesa</p>
+                <p>Milwaukee</p>            
+                </div>
+
+                <div class="p7">
+                <p>Nashville</p>
+                <p>New Orleans</p>
+                <p>Omaha</p>
+                <p>Orlando</p>
+                <p>Orlando</p>
+                <p>Palm Bay</p>            
+                </div>
+                    
+                <div class="p8">
+                <p>Providence</p>
+                <p>Queens</p>
+                <p>San Antonio</p>
+                <p>Stony Brook</p>
+                <p>Tucson</p>
+                <p>West Hollywood</p>            
+                </div>
+
+
+            </div><br><br>
+
+            <div class="h2"></div>
+
+            <h2 class="ea">Uber Eats</h2>
+
+            <div class="ts">
+
+                <div class="ImageOne"><img alt="App Store" src="https://www.ubereats.com/_static/783bb4a82e5be29e.svg"></div>
+                <div class="ImageTwo"><img alt="App Store" src="https://www.ubereats.com/_static/163bdc9b0f1e7c9e.png"></div>
+
+                <div class="p9">
+                 <a href="lorem.html" target="_blank"><p>Get Help</p></a>
+                 <a href="position.css" target="_blank"><p>Buy gift cards</p></a>
+                 <a href="CSS day2.html" target="_blank"><p>Add your restaurant</p></a>
+                 <a href="configuration-Office365-x64.xml" target="_blank"><p>Sign up to deliver</p></a>
+                 <a href="form task.html" target="_blank"><p>Create a business account</p></a>
+                 <a href="rowspan.html" target="_blank"><p>Promotions</p></a>
+                </div>
+  
+                <div class="p10">
+                 <a href="lorem.html" target="_blank"><p>Restaurants near me</p></a>
+                 <a href="position.css" target="_blank"><p>View all cities</p></a>
+                 <a href="CSS day2.html" target="_blank"><p>View all countries</p></a>
+                 <a href="configuration-Office365-x64.xml" target="_blank"><p>Pickup near me</p></a>
+                 <a href="form task.html" target="_blank"><p>About Uber Eats</p></a>
+                 <a href="rowspan.html" target="_blank"><p>Shop groceries</p></a>
+                 <a href="CSS.html" target="_blank"><p>English</p></a>
+                </div>
+
+
+            </div><br>
+              
+              <div class="h3"></div>
+
+              <div class="logo">
+                  <div class="F"><i class="fa-brands fa-square-facebook"></i></div>
+                  <div class="T"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="Zc"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="li"><a href="day  2.html"><p>Privacy Policy</p></a></div>   
+                   <div class="cy"><a href="flower.png"><p>Terms</p></a></div>
+                   <div class="po"><a href="lion.jpg.jpeg"><p>Pricing</p></a></div>
+                   <div class="is"><a href="food.jpg"><p>Do not sell or share my personal information</p></a></div><br>
+                   </div>
+
+                   <div class="his">
+                   <p class="was">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                   <p class="has">© 2025 Uber Technologies Inc.</p>
+                   </div><br><br>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+       text-align: center;
+       font-size: 50px;
+       font-family: 'Times New Roman', Times, serif;
+    }
+    .FLEX{
+        height: 500px;
+        background-color: red;
+        display: flex;
+        /*flex-direction: row-reverse;*/
+        /*flex-wrap:wrap;
+        justify-content: center;*/
+        align-items:stretch;
+    }
+    .SL{
+        background-color: darkgray;
+        margin: 10px;
+        padding: 20px;
+        font-size: 60px;
+        height: 90px;
+        width: 150px;
+        /*text-align: center;*/
+        /*order: "8";
+        order: "2";
+        order: "4";
+        order: "1";
+        order: "5";
+        order: "7";
+        order: "9";
+        order: "12";
+        order: "10";
+        order: "11";
+        order: "4";
+        order: "6";
+        order: "3";
+        order: "13";*/
+
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS FLEX</h1>
+    <div class="FLEX">    
+    <div class="SL" style="order: 8;" >1</div>
+    <div class="SL" style="flex-grow: 10;">2</div>
+    <div class="SL" style="flex-grow: 15;">4</div>
+    <div class="SL">5</div>
+    <div class="SL">6</div>
+    <div class="SL" style="flex-basis: 100px;">7</div>
+    <div class="SL">8</div>
+    <div class="SL">9</div>
+    <div class="SL">10</div>
+    <div class="SL">11</div>
+    <div class="SL">12</div>
+    <div class="SL" style="align-self: center;">13</div>
+    <div class="SL">14</div>
+
+    </div>
+
+</body>
+</html>
